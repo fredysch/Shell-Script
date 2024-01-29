@@ -1,0 +1,362 @@
+Informações sobre a Placa-Mãe:
+   Nome do Produto: 80YH
+   Fabricante: LENOVO
+
+Quantidade de processadores: 4
+
+Informações do Processador:
+   Número de Processadores: 4
+   
+
+Informações sobre a Memória:
+   # dmidecode 3.5
+Scanning /dev/mem for entry point.
+
+Memória livre: 1,5Gi
+
+Volumes maiores:
+   Tamanho: Arq. Diretório: Uso%
+   Tamanho: 9,7G Diretório: /dev
+   Tamanho: 9,7G Diretório: /run
+   Tamanho: 108K Diretório: /sys/firmware/efi/efivars
+   Tamanho: 195G Diretório: /
+   Tamanho: 9,7G Diretório: /dev/shm
+   Tamanho: 9,7G Diretório: /tmp
+   Tamanho: 511M Diretório: /boot/efi
+   Tamanho: 2,0G Diretório: /run/user/1000
+   Tamanho: 50G Diretório: /mnt/sdb10
+   Tamanho: 50G Diretório: /mnt/sdb9
+   Tamanho: 50G Diretório: /mnt/sdb7
+   Tamanho: 50G Diretório: /mnt/sdb5
+   Tamanho: 500G Diretório: /mnt/sdb11
+   Tamanho: 93G Diretório: /mnt/sdb3
+   Tamanho: 50G Diretório: /mnt/sdb8
+   Tamanho: 50G Diretório: /mnt/sdb6
+   Tamanho: 32G Diretório: /mnt/sdb12
+   Tamanho: 49G Diretório: /mnt/sda7
+   Tamanho: 194G Diretório: /mnt/sda6
+
+Interface de rede que transmitiu mais bytes:
+   Interface: #kernel Bytes Transmitidos: 
+   Interface: Interface Bytes Transmitidos: TX
+   Interface: lo Bytes Transmitidos: 59
+   Interface: enp1s0 Bytes Transmitidos: 0
+   Interface: wlp2s0 Bytes Transmitidos: 1176
+   Interface: docker0 Bytes Transmitidos: 0
+   Interface: br-fddb04b4cd1d Bytes Transmitidos: 0
+
+/home/fredy/.ssh/id_rsa already exists.
+Overwrite (y/n)? 
+Informações adicionais do sistema:
+Linux Dev 6.6.10-1-MANJARO #1 SMP PREEMPT_DYNAMIC Fri Jan  5 17:38:36 UTC 2024 x86_64 GNU/Linux
+
+Informações do CPU:
+
+Informações da Memória:
+MemTotal:       20263728 kB
+MemAvailable:   13531928 kB
+
+Informações sobre a Distribuição Linux:
+LSB Version:	n/a
+Distributor ID:	BigLinux based in Manjaro Linux
+Description:	BigLinux
+Release:	23.1.3
+Codename:	Vulcan
+
+Usuários Logados:
+fredy    tty2         2024-01-25 21:04 (:0)
+fredy    pts/0        2024-01-25 21:04 (:0)
+fredy    pts/1        2024-01-27 21:09 (:0)
+
+Uso da CPU e Memória Atual:
+
+Últimos Comandos Executados:
+
+Versão do SSH:
+OpenSSH_9.6p1, OpenSSL 3.2.0 23 Nov 2023
+
+Informações sobre a Interface de Rede:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 64:1c:67:96:dd:9b brd ff:ff:ff:ff:ff:ff
+3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 5c:c9:d3:b1:06:4a brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.9/24 brd 192.168.1.255 scope global dynamic noprefixroute wlp2s0
+       valid_lft 49773sec preferred_lft 49773sec
+    inet6 2804:30c:84d:d500:c7cb:c288:432d:576c/64 scope global dynamic noprefixroute 
+       valid_lft 445116sec preferred_lft 445116sec
+    inet6 fe80::5120:6f82:e8c8:35a9/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:ef:cb:95:25 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+5: br-fddb04b4cd1d: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:5a:9e:3a:35 brd ff:ff:ff:ff:ff:ff
+    inet 172.18.0.1/16 brd 172.18.255.255 scope global br-fddb04b4cd1d
+       valid_lft forever preferred_lft forever
+
+Informações da Placa de Vídeo e Drivers Gráficos:
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 620 (rev 02)
+server glx vendor string: SGI
+client glx vendor string: Mesa Project and SGI
+    Vendor: Intel (0x8086)
+OpenGL vendor string: Intel
+
+Informações sobre a Placa de Rede:
+01:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+
+Informações da Placa de Som e Dispositivos de Áudio:
+00:1f.3 Audio device: Intel Corporation Sunrise Point-LP HD Audio (rev 21)
+**** List of PLAYBACK Hardware Devices ****
+card 0: PCH [HDA Intel PCH], device 0: ALC236 Analog [ALC236 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 3: HDMI 0 [HDMI 0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 7: HDMI 1 [HDMI 1]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 8: HDMI 2 [HDMI 2]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+Informações sobre Dispositivos de Armazenamento:
+NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda       8:0    0 447,1G  0 disk 
+├─sda1    8:1    0   100M  0 part 
+├─sda2    8:2    0    16M  0 part 
+├─sda3    8:3    0   512M  0 part /boot/efi
+├─sda4    8:4    0   532M  0 part 
+├─sda5    8:5    0 198,6G  0 part /
+├─sda6    8:6    0 198,1G  0 part /mnt/sda6
+└─sda7    8:7    0  49,4G  0 part /mnt/sda7
+sdb       8:16   0 931,5G  0 disk 
+├─sdb1    8:17   0   5,5G  0 part 
+├─sdb3    8:19   0  94,5G  0 part /mnt/sdb3
+├─sdb5    8:21   0    50G  0 part /mnt/sdb5
+├─sdb6    8:22   0    50G  0 part /mnt/sdb6
+├─sdb7    8:23   0    50G  0 part /mnt/sdb7
+├─sdb8    8:24   0    50G  0 part /mnt/sdb8
+├─sdb9    8:25   0    50G  0 part /mnt/sdb9
+├─sdb10   8:26   0    50G  0 part /mnt/sdb10
+├─sdb11   8:27   0   500G  0 part /mnt/sdb11
+└─sdb12   8:28   0  31,5G  0 part /mnt/sdb12
+zram0   254:0    0     8G  0 disk [SWAP]
+
+Versão do Kernel Linux:
+6.6.10-1-MANJARO
+
+Módulos do Kernel Carregados:
+Module                  Size  Used by
+uas                    32768  0
+usb_storage            90112  1 uas
+tls                   151552  0
+rfcomm                102400  16
+xt_conntrack           12288  2
+xt_MASQUERADE          16384  2
+nf_conntrack_netlink    61440  0
+iptable_nat            12288  1
+nf_nat                 65536  2 iptable_nat,xt_MASQUERADE
+nf_conntrack          208896  4 xt_conntrack,nf_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+libcrc32c              12288  2 nf_conntrack,nf_nat
+xt_addrtype            12288  2
+snd_seq_dummy          12288  0
+iptable_filter         12288  1
+snd_hrtimer            12288  1
+snd_seq               131072  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+br_netfilter           32768  0
+bridge                438272  1 br_netfilter
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+ccm                    20480  6
+overlay               225280  0
+qrtr                   57344  4
+cmac                   12288  3
+algif_hash             12288  1
+algif_skcipher         12288  1
+af_alg                 36864  6 algif_hash,algif_skcipher
+bnep                   36864  2
+snd_soc_avs           221184  0
+snd_soc_hda_codec      28672  1 snd_soc_avs
+intel_rapl_msr         20480  0
+intel_rapl_common      40960  1 intel_rapl_msr
+snd_soc_skl           241664  0
+intel_tcc_cooling      12288  0
+snd_soc_hdac_hda       28672  1 snd_soc_skl
+x86_pkg_temp_thermal    16384  0
+snd_hda_ext_core       36864  4 snd_soc_avs,snd_soc_hda_codec,snd_soc_hdac_hda,snd_soc_skl
+intel_powerclamp       20480  0
+snd_soc_sst_ipc        20480  1 snd_soc_skl
+coretemp               16384  0
+snd_soc_sst_dsp        45056  1 snd_soc_skl
+snd_soc_acpi_intel_match    94208  1 snd_soc_skl
+kvm_intel             425984  0
+snd_soc_acpi           16384  2 snd_soc_acpi_intel_match,snd_soc_skl
+snd_hda_codec_hdmi     94208  1
+joydev                 24576  0
+snd_soc_core          458752  4 snd_soc_avs,snd_soc_hda_codec,snd_soc_hdac_hda,snd_soc_skl
+kvm                  1376256  1 kvm_intel
+mousedev               24576  0
+snd_hda_codec_realtek   196608  1
+snd_compress           28672  2 snd_soc_avs,snd_soc_core
+snd_hda_codec_generic   114688  1 snd_hda_codec_realtek
+ac97_bus               12288  1 snd_soc_core
+irqbypass              12288  1 kvm
+snd_pcm_dmaengine      16384  1 snd_soc_core
+ledtrig_audio          12288  1 snd_hda_codec_generic
+crct10dif_pclmul       12288  1
+crc32_pclmul           12288  0
+polyval_clmulni        12288  0
+polyval_generic        12288  1 polyval_clmulni
+snd_hda_intel          65536  1
+gf128mul               16384  1 polyval_generic
+snd_intel_dspcfg       40960  3 snd_soc_avs,snd_hda_intel,snd_soc_skl
+ghash_clmulni_intel    16384  0
+ath10k_pci             65536  0
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+sha512_ssse3           53248  0
+sha256_ssse3           32768  0
+btusb                  86016  0
+uvcvideo              176128  4
+sha1_ssse3             32768  0
+snd_hda_codec         225280  8 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_codec_realtek,snd_soc_hdac_hda,snd_soc_skl
+btrtl                  32768  1 btusb
+ath10k_core           774144  1 ath10k_pci
+aesni_intel           360448  8
+videobuf2_vmalloc      20480  1 uvcvideo
+btintel                57344  1 btusb
+uvc                    12288  1 uvcvideo
+snd_hda_core          151552  10 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_ext_core,snd_hda_codec,snd_hda_codec_realtek,snd_soc_hdac_hda,snd_soc_skl
+crypto_simd            16384  1 aesni_intel
+btbcm                  24576  1 btusb
+videobuf2_memops       16384  1 videobuf2_vmalloc
+ath                    40960  1 ath10k_core
+snd_hwdep              20480  1 snd_hda_codec
+hid_rmi                28672  0
+videobuf2_v4l2         40960  1 uvcvideo
+snd_pcm               204800  9 snd_soc_avs,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_compress,snd_soc_core,snd_soc_skl,snd_hda_core,snd_pcm_dmaengine
+btmtk                  12288  1 btusb
+cryptd                 28672  3 crypto_simd,ghash_clmulni_intel
+mac80211             1572864  1 ath10k_core
+rmi_core              126976  1 hid_rmi
+mei_pxp                16384  0
+videodev              389120  4 videobuf2_v4l2,uvcvideo
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+rapl                   20480  0
+mei_hdcp               28672  0
+intel_cstate           20480  0
+snd                   155648  16 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_compress,snd_soc_core,snd_pcm
+videobuf2_common       94208  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+bluetooth            1114112  44 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+i2c_i801               40960  0
+libarc4                12288  1 mac80211
+intel_xhci_usb_role_switch    12288  0
+vfat                   20480  1
+fat                   106496  1 vfat
+intel_uncore          258048  0
+mc                     90112  6 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+cfg80211             1339392  3 ath,mac80211,ath10k_core
+ecdh_generic           16384  2 bluetooth
+r8168                 266240  0
+intel_wmi_thunderbolt    16384  0
+wmi_bmof               12288  0
+soundcore              16384  1 snd
+mei_me                 57344  2
+roles                  16384  1 intel_xhci_usb_role_switch
+mei                   200704  5 mei_hdcp,mei_pxp,mei_me
+i2c_smbus              20480  1 i2c_i801
+intel_lpss_pci         24576  0
+intel_lpss             16384  1 intel_lpss_pci
+intel_pch_thermal      20480  0
+i2c_hid_acpi           12288  0
+idma64                 20480  0
+i2c_hid                40960  1 i2c_hid_acpi
+ideapad_laptop         57344  0
+sparse_keymap          12288  1 ideapad_laptop
+platform_profile       12288  1 ideapad_laptop
+rfkill                 40960  11 bluetooth,ideapad_laptop,cfg80211
+acpi_pad               24576  0
+mac_hid                12288  0
+tcp_bbr                20480  30
+vboxnetflt             40960  0
+vboxnetadp             28672  0
+vboxdrv               651264  3 vboxnetadp,vboxnetflt
+uinput                 20480  0
+i2c_dev                28672  0
+sg                     49152  0
+crypto_user            20480  0
+fuse                  212992  21
+dm_mod                225280  0
+zram                   40960  2
+loop                   40960  0
+nfnetlink              20480  3 nf_conntrack_netlink
+bpf_preload            20480  0
+ip_tables              36864  2 iptable_filter,iptable_nat
+x_tables               69632  6 xt_conntrack,iptable_filter,xt_addrtype,ip_tables,iptable_nat,xt_MASQUERADE
+ext4                 1175552  4
+crc32c_generic         12288  0
+crc16                  12288  2 bluetooth,ext4
+mbcache                16384  1 ext4
+jbd2                  221184  1 ext4
+i915                 4136960  62
+i2c_algo_bit           20480  1 i915
+drm_buddy              20480  1 i915
+ttm                   110592  1 i915
+intel_gtt              28672  1 i915
+crc32c_intel           16384  9
+xhci_pci               28672  0
+drm_display_helper    229376  1 i915
+xhci_pci_renesas       24576  1 xhci_pci
+cec                    86016  2 drm_display_helper,i915
+serio_raw              16384  0
+atkbd                  40960  0
+libps2                 20480  1 atkbd
+vivaldi_fmap           12288  1 atkbd
+i8042                  53248  1 ideapad_laptop
+video                  77824  2 ideapad_laptop,i915
+serio                  28672  5 rmi_core,serio_raw,atkbd,i8042
+wmi                    45056  4 video,intel_wmi_thunderbolt,wmi_bmof,ideapad_laptop
+
+Informações sobre a BIOS/UEFI:
+# dmidecode 3.5
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+Scanning /dev/mem for entry point.
+Can't read memory from /dev/mem
+
+Informações sobre Portas USB:
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 0cf3:e500 Qualcomm Atheros Communications 
+Bus 001 Device 003: ID 13d3:5a02 IMC Networks EasyCamera
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+Informações sobre Partições e Sistema de Arquivos:
+/dev/sdb10: BLOCK_SIZE="512" UUID="E6E4E6BAE4E68BDD" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="d5fd77ec-7dce-49e1-b0ef-37d7d2753f69"
+/dev/sdb9: LABEL="I" BLOCK_SIZE="512" UUID="2E3CBCFC3CBCBFDF" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="2959ee90-1614-44d3-abc8-68193246e6f5"
+/dev/sdb7: LABEL="G" BLOCK_SIZE="512" UUID="CEF4AD79F4AD6485" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="b47fd4e6-9780-48ca-aff9-f3b07b0807b1"
+/dev/sdb5: BLOCK_SIZE="512" UUID="7048451A4844E108" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="aadf372e-b805-48ad-bccb-f6121bcea002"
+/dev/sdb11: LABEL="D" BLOCK_SIZE="512" UUID="2298925A98922BF3" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="04649f08-805e-42b1-ad9d-014a6cde7070"
+/dev/sdb3: UUID="c691a3e3-57ea-4640-9e98-a83c924d8cb8" BLOCK_SIZE="4096" TYPE="ext4" PARTLABEL="root" PARTUUID="f659eb2d-4568-4745-8dd0-134829a26f32"
+/dev/sdb1: LABEL="W" BLOCK_SIZE="512" UUID="4EF884693E4B1BB0" TYPE="ntfs" PARTUUID="cdea99f1-b705-43cd-add1-fd995dce9cfe"
+/dev/sdb8: LABEL="H" BLOCK_SIZE="512" UUID="9E36B56E36B547D3" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="238352c3-f529-40ef-b98d-e9e0c13f02f0"
+/dev/sdb6: BLOCK_SIZE="512" UUID="22B0588AB05865F7" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="2bae4a93-b197-43b4-aa04-093e5113c629"
+/dev/sdb12: BLOCK_SIZE="512" UUID="14E40DE6E40DCB46" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="f87ccbcc-967d-4054-9c91-c1d16ced77e9"
+/dev/sda4: BLOCK_SIZE="512" UUID="DE66716366713CF9" TYPE="ntfs" PARTUUID="4dcb66f9-a110-48de-9c2f-b992dafae560"
+/dev/sda7: UUID="c326e119-aa61-49b6-af5b-3957fe2d48c8" BLOCK_SIZE="4096" TYPE="ext4" PARTLABEL="Z" PARTUUID="3753b4ae-ddf3-41f2-9f24-f66119b02528"
+/dev/sda5: UUID="1a232528-2912-4108-949f-2176a720f7b8" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="dd9a753e-ed94-4702-a8ba-9a4ac6c2b49d"
+/dev/sda3: UUID="5BD3-35B4" BLOCK_SIZE="512" TYPE="vfat" PARTUUID="6f1eb7ef-6b02-4d92-8d44-dee615a7b892"
+/dev/sda1: UUID="4486-4284" BLOCK_SIZE="512" TYPE="vfat" PARTLABEL="EFI system partition" PARTUUID="7e316e13-39b8-4c52-b5f5-6fb53f8e3fea"
+/dev/sda6: LABEL="F" UUID="415ac958-78c3-436b-9526-795f1afcbca4" BLOCK_SIZE="4096" TYPE="ext4" PARTLABEL="Files" PARTUUID="5b1f80a7-6e0a-4c13-a084-780274658010"
+/dev/zram0: UUID="f1f6c378-a42b-47bd-8366-1cc7df9d5ef6" TYPE="swap"
+
+Informações do sistema foram salvas em system_info_output.txt
+
